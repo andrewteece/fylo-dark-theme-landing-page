@@ -1,0 +1,39 @@
+/* FONTS */
+
+/* Headings, CTA, Header Navigation */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Body */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* CSS CUSTOM PROPERTIES */
+
+:root {
+  --ff-primary: 'Open Sans', sans-serif;
+  --ff-secondary: 'Raleway', sans-serif;
+
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  --fs-xsm: .75rem;
+  --fs-sm: .875rem;
+  --fs-base: 1rem: 
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem
+  --fs-xlg: 1.5rem;
+  --fs-xxlg: 2rem;
+  --fs-xxxlg: 2.5rem;
+
+  --clr-primary-intro: hsl(217, 28%, 15%);
+  --clr-priamry-mainBg: hsl(218, 28%, 13%);
+  --clr-primary-footerBg: hsl(216, 53%, 9%);
+  --clr-primary-testBg: hsl(219, 30%, 18%);
+
+  --clr-accent-cta-1: hsl(176, 68%, 64%);
+  --clr-accent-cta-2: hsl(198, 60%, 50%);
+  --clr-accent-error: hsl(0, 100%, 63%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+}
