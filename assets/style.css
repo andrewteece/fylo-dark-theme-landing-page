@@ -110,6 +110,40 @@ body {
   transition: all 400ms ease-in-out;
 }
 
+.flow-content {
+  margin-top: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 1.5rem;
+}
+
+.section--spacer {
+  margin-top: 5rem;
+}
+
+.section--title {
+  font-size: var(--fs-xlg);
+  font-weight: var(--fw-bold);
+  line-height: 2.25rem;
+}
+
+.section--subtitle {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+}
+
+.section--text {
+  font-size: var(--fs-sm);
+  line-height: 1.3125rem;
+  margin-bottom: 1rem;
+}
+
 /* Components */
 
 .btn {
@@ -179,24 +213,13 @@ body {
   position: relative;
 }
 
+.hero--img {
+  width: 18.75rem;
+}
+
 .hero__bkg {
   background-image: url('/images/bg-curvy-mobile.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero--img {
-  width: 18.75rem;
-}
-
-.hero--title {
-  font-size: var(--fs-xlg);
-  font-weight: var(--fw-bold);
-  line-height: 2.25rem;
-}
-
-.hero--text {
-  font-size: var(--fs-sm);
-  line-height: 1.3125rem;
 }
