@@ -110,6 +110,20 @@ body {
   transition: all 400ms ease-in-out;
 }
 
+.link--accent {
+  font-size: var(--fs-xsm);
+  color: var(--clr-accent-cta-1);
+  border-bottom: 1px solid var(--clr-accent-cta-1);
+}
+
+.link--layout {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
 .flow-content {
   margin-top: 1rem;
 }
@@ -125,6 +139,10 @@ section {
 
 .section--spacer {
   margin-top: 5rem;
+}
+
+.section--smSpacer {
+  margin-top: 2.5rem;
 }
 
 .section--title {
